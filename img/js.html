@@ -1,0 +1,1656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jscript</title>
+</head>
+<body > 
+    <!-- <h1 class="a" >hello world</h1>
+    <h1  class="a">hello world</h1>
+    <h1  class="a">hello world</h1>
+    <h1  class="a" >hello world</h1>
+    <h1  class="a" >hello world</h1>
+    <h1 id="a" onmouseover="f()" onmouseout="s()">hello world</h1>
+    <input type="text" name="inp"/>
+    <p id="b"></p> -->
+
+    <!-- <input type="text" id="inp1" onblur="f()"/>
+    <input type="text" id="inp2" onblur="f()"/>
+     <p id="p1"></p> -->
+    <!-- <h1 id="p1"></h1>
+    <button onclick="f()"> Add</button> --> 
+   
+
+     <!-- <button onclick="f()">Show Color</button>  -->
+     <!-- <br/><br/>
+    <button onclick="s()">Hide Color</button>  -->
+      
+
+    
+    <!-- <div style="height: 400px; width: 100%;" id="d1"> </div> -->
+         <script type="text/javascript"> 
+
+
+// alert("heloo")
+// document.write("hii buddy")
+// console.log("hii buddy")
+// console.warn("bhai kiya kar rha hai ")
+// console.error("error")
+//  a=[10,20,30,40,50]
+//  console.log(a)
+// console.table(a)
+// confirm()
+// confirm("are you sure")
+// prompt()
+// prompt("enter your name")
+// a=10
+// b=20
+// c=a+b
+// document.write(c)
+// document.write(a)
+// document.write('+')
+// document.write(a)
+// document.write('=')
+// document.write(c)
+//  document.write(`${a}+${b}=${c} </br>`)
+// a=20
+// b=10
+// c=a-b
+// document.write(`${a}-${b}=${c} </br>`)
+// a=20
+// b=10
+// c=a*b
+// document.write(`${a}*${b}=${c} </br>`)
+// a=20
+// b=10
+// c=a/b
+// document.write(`${a}/${b}=${c} </br>`)
+// a=20
+// b=10
+// c=a**b
+// document.write(`${a}*${b}=${c} </br>`)
+// a=20
+// b=10
+// c=10
+// d=a*b*c
+// document.write(`${a}*${b}* ${c} =${d} </br>`)
+ 
+// a=prompt("enter your first number")
+// b=prompt("enter your second number")
+// c=a+b
+// document.write(c)
+// a= parseInt( prompt("enter your first number"))
+// b= parseInt (prompt("enter your second number"))
+// c=a+b
+// document.write(c)
+// a=eval( prompt("enter your first number"))
+// b=eval( prompt("enter your second number"))
+// c=a+b
+// document.write(c)
+// a=prompt("enter your first number")
+// b=prompt("enter your second number")
+// c=eval(a)+eval(b)
+// document.write(c)
+// a=prompt("enter your first number")
+// b=prompt("enter your second number")
+// c=parseInt(a)+parseInt(b)
+// document.write(c)
+// a=prompt("enter your number")
+// c=(a%2==0)?'even':'odd'
+// document.write(c)
+// ch=prompt("enter your alfabet")
+// c=(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') ?
+//  'vowel': 'consonant'
+// document.write(c)
+
+// m=prompt("enter your math marks")
+// p=prompt("enter your physics marks")
+// s=prompt("")
+// avg=(m+p+s)/3
+// store=(avg >60 || avg<60)? "pass":"fail"
+// document.write(store)
+// m=prompt("enter your math marks")
+// p=prompt("enter your physics marks")
+// s=prompt("")
+// avg=(m+p+s)/3 
+// store=(avg <90 && avg>80)?"grade A"(avg<70 && avg<60)?"grade b":"fail"
+    
+// document.write(store)
+// a=prompt("enter your first num")
+// ab=prompt("enter your second num")
+// if(a>b)
+// {
+// document.write(a)
+// }
+
+// a=prompt("enter your first num")
+// b=prompt("enter your second num")
+// if(a>b) 
+// { 
+//     document.write(a )
+// }
+// else
+// {
+//    document.write(b)
+
+// }
+// a=prompt("a bada hai")
+
+// if(a%2==0) 
+// { 
+//     document.write("even")
+// }
+// else
+// {
+//    document.write("odd")
+
+// }
+
+// a=prompt("enter your year num")
+
+// if(a%4==0) 
+// { 
+//     document.write("leep")
+// }
+// else
+// {
+//    document.write("not leep")
+// }
+
+// ch=prompt("enter value")
+// if(ch=='a'|| ch=='i' || ch=='o' ||ch=='e'||ch=='u')
+// document.write("vowel")
+// else
+// document.write("consonate")
+
+
+// n=prompt("enter value")
+// if(n>=0)
+// document.write("positive")
+// else
+// document.write("negative")
+
+
+// ch=prompt("enter your charcter")
+// if(ch >='A'&& ch <='Z')
+// document.write("upercase")
+// else
+// document.write("lowercase")
+
+// ch=prompt("enter your age")
+// if(ch>=18)
+// document.write  ("eligable for vote")
+// else 
+// document.write("not eligable  for vote")
+
+// a=prompt("enter your first num")
+// b=prompt("enter your sec num")
+// c=prompt("enter your third num")
+// if(a>b&&a>c)
+// document.write("a")
+// if(b>a&&b>c)
+// document.write("b")
+// if(c>a&&c>b)
+// document.write("c")
+
+// if(a>b&&a>c)    
+// document.write(a)
+//  else if(b>a&&b>c)
+// document.write(b)
+// else
+// document.write(c)
+
+// n=prompt("enter your char")
+// if(n>0)
+// document.write("positive")
+// else if (n<0)
+// document.write("nagetive")
+// else
+// document.write("ziro")
+
+// a=parseInt(prompt("enter your value"))
+// if(a>='a'&& a<='z' ||a<='A'&& a>='Z')
+//     document.write("alfabat")
+
+// else if(ch>='0'&& ch<='999')
+//     document.write("digit")
+// else 
+//     document.write("special symbol")
+
+
+
+// a=eval(prompt("enter your number"))
+// switch(a){
+//     case 1:
+//     document.write("monday")
+//     break;
+//     case 2:
+//     document.write("tusday")
+//     break;
+//     case 3:
+//     document.write("wednesday")
+//     break;
+//     default:
+//         document.write("nothing")
+
+
+// }
+
+
+// n=prompt("enter your number")
+// for(i=1;i<=10;i++)
+// {
+//     document.write(  n*i +"<br>")
+// } 
+
+
+//  num of sqr
+//  n=prompt("enter your number")
+//  for(i=1;i<=n;i++)
+//  {
+//      document.write(  i*i +"<br>")
+//  } 
+
+
+// n=prompt("enter your number")
+// for(i=1;i<=10;i++)
+// {
+//     document.write(  i*i*i +"<br>")
+// }
+
+
+// number of cube
+// n= parseInt(prompt("enter your number"))
+// for(i=1;i<=n;i++)
+// {
+//     a=i*i*i;
+//     document.write(  a +"<br>")
+// }
+// n=prompt("enter your number")
+// for(i=1;i<=10;i++)
+// {
+//     document.write(  n*i +"<br>")
+// }
+
+
+// n=parseInt(prompt("enter your num"))
+// sum=0
+
+// for(i=1;i<=n;i++)
+// {
+//     sum+=i
+//     // sum=sum+1
+// }
+// document.write(sum +"<br>")
+
+// n=parseInt(prompt("enter your num"))
+// for(i=2;i<=n;i+=2)
+// {
+//     document.write(i+ "<br>")
+// }
+
+// n=parseInt(prompt("enter your num"))
+// for(i=2;i<=n;i++)
+// {
+//     if(i%2==0){
+//         document.write(i+"<br>")
+//     }
+// }
+
+
+// n=eval(prompt("Enter the number"))
+//     sum=0
+//     for(i=1;i<=n;i++){
+//     if(i%2==0){
+//         sum=sum+i
+//          }}
+//     document.write(sum +" <br>")
+
+
+// print all even numbers
+
+// n=eval(prompt("Enter the number"))
+
+// for(i=2;i<=n;i++){
+//  if(i%2==0)
+//  {
+//    document.write(i +" <br>")
+
+//  }
+// }
+// square star pattern
+//      n=eval(prompt("Enter the number"))
+//      for(i=1;i<=n;i++)
+//      {
+//          for(j=1;j<=n;j++)
+//         {
+//              document.write("*")
+//          }
+//         document.write("<br>")
+//  }
+    //  square star pattern
+
+    // hollow square star pattern
+    // n=eval(prompt("Enter the number"))
+    // for(i=1;i<=n;i++)
+    // {
+    //     for(j=1;j<=n;j++)
+    //     {
+    //         if(i==1||i==n||j==1||j==n)
+    //         {
+    //             document.write("*")
+    //         }
+    //         else
+    //         {
+    //             document.write("&nbsp ")
+    //         }
+           
+    //     }
+    //     document.write("<br>")
+    // }
+    // do while loop
+        // n=eval(prompt("enter your last number"))
+
+        // i=0
+        // do{
+        //     document.write(i + "<br>")
+        //     i++
+        // }
+        // while(i<=n)
+        // while loop
+
+    // 1 to n number 
+    
+        // n=eval(prompt("enter your last number"))
+        // i=0
+        // while(i<=n)
+        // {
+            
+        //     document.write(i + "<br>")
+        //     i++
+        // }
+
+
+        //    x=20
+        // document.write(x)
+
+
+        // let x=20
+        // document.write(x)
+
+        // const x=20
+        // document.write(x)
+
+        // var x=20
+        // document.write(x)
+
+        // var a=10
+        // var b=20
+        // const z=a+b
+        // document.write(z)
+
+
+        //math function 
+        // a=Math.abs(-6)
+        // a=Math.abs(6)
+        
+        // a=Math.min(23,45,12,56)
+        // a=Math.max(23,45,12,56)
+        // a=Math.round(4.6)
+        // a=Math.round(4.3)
+        // a=Math.round(4.80)
+        // a=Math.round(4.30)
+        // a=Math.ceil(4.6)
+        // a=Math.ceil(4.3)
+        // a=Math.ceil(4.80)
+        // a=Math.ceil(4.30)
+        // a=Math.floor(4.6)
+        // a=Math.floor(4.3)
+        // a=Math.floor(4.80)
+        // a=Math.floor(4.30)
+        // a=Math.random()
+        // a=Math.random()*7
+        // a=Math.pow(3,4) //(3*3*3*3)
+        // a=Math.sqrt(25)
+
+//         let val = 1; 
+   
+//    do { 
+//        console.log(val); 
+         
+//        val += 1; 
+          
+//    }  
+
+//    while (val < 6);
+
+    //    document.write(a)
+// var dt= new Date();
+// document.write(dt)
+// document.write("day:-"+dt.getDay())
+// document.write("day:-"+dt.getDate())
+// document.write("day:-"+dt.getMonth())
+// document.write("day:-"+dt.getHours())
+// document.write("day:-"+dt.getFullYear()).
+// document.write("day:-"+dt.getMilliseconds())
+// document.write("day:-"+dt.getMinutes())
+// document.write("day:-"+dt.getTime())
+// document.write("day:-"+dt.getDay())
+
+// var gt= new Date();
+// // document.write(gt)
+// document.write("day :-"+gt.getFullYear())
+
+
+//  if else / else if
+//  time=prompt("ishwar time dal")
+//         if(time>5 && time<12){
+//             document.write("good morning")
+//         }
+//         else if(time>12 && time<17)
+//         {
+//             document.write("good afternoon")
+
+//         }
+//         else if(time>17 && time<21)
+//         {
+//             document.write("good evening")
+//         }
+
+//         else {
+//             document.write("good night")
+//         }
+
+// switch case
+// a = prompt("konsa frute chahiye hukum")
+// switch(a){
+// case 'Aam':
+//     document.write("aam 200 rs kilo hai janab ");
+// break;
+// case 'papita':
+//     document.write("papita 80 rs kilo hai janab");
+// break;
+// case 'amrud':
+//     document.write("amrud 40 rs kilo hai janab");
+// break;
+// case 'kele':
+//     document.write("kele 40 rs kilo hai janab");
+// break;
+// case 'anguur':
+//     document.write("angur 70 rs kilo hai janab");
+// break;
+// case 'sitafal':
+//     document.write("sitafal 30 rs kilo hai janab");
+// break;
+// case 'seb':
+//     document.write("seb 150 rs kilo hai janab");
+// break;
+// case 'santre':
+//     document.write("santre 40 rs kilo hai janab");
+// break;
+// default:
+//     document.write('${a} aaj katam ho gya hai janab');
+// }
+
+// for loop
+//  table 5..
+// for(i=5; i<51; i=i+5){
+//     document.write(i + '<br>' )  
+// }
+
+// rev.... table 5..
+// for( let i=50; i > 4; i=i-5)
+// {
+//     document.write(i +'<br>')
+// }
+
+
+
+// while looop
+// while(i<=10)
+// {
+// document.write( i +': helloo')
+// i++
+// }
+
+
+// j=0
+// do while loop
+// do{
+//     document.write( j + " error aa r" +"<br>")
+//     j++
+// }
+// while(j<20)
+
+
+// j=10    
+// do{
+//     document.write("error" +"<br>")
+//     j++
+// }
+// while(j<20)
+
+// let  animal={
+//     name:"babbr sher",
+//     leg :"4"
+// };
+// for ( let key in animal){
+
+// }
+// console.log (animal["name"])
+
+
+
+// let  sanjay={
+//     name:" sher",
+//     leg :"2",
+//     hend: "2",
+//     eye:"2",
+//     nose:"1"
+// };
+// for ( let key in sanjay){
+// }
+// console.log (sanjay["name"])
+
+
+// without using third vaiable
+// let a=12;
+// let b=10;
+// [ a,b]=[b,a];
+// document.write(b)
+
+// using with temporary variable
+// let a=20;
+// let b=10;
+//   let c=a;
+//   a=b;
+//   b=a;
+//   document.write(c)
+
+
+// let a=10;
+// let b=20;
+//  a=a+b;
+//  b=a-b;
+//  a=a-b
+//  document.write(a)
+
+
+// let a=10;
+// let b=20;
+//  a=a*b;
+//  b=a/b;
+//  a=a/b
+//  document.write(b)
+
+
+// pre = prompt('Enter the marks of pre : ')
+//         if (pre>=80){
+//             main = prompt('Enter the marks of Mains : ')
+//             if (main >= 80){
+//                 int = prompt('Enter the marks of Interview : ')
+//                 if (int >= 80){
+//                     document.write('You are selected')
+//                 }
+//                 else{
+//                     document.write('Fail in Interview')
+//                 }
+//             }
+//             else{
+//                 document.write('Fail in Mains')
+//             }
+//         }
+//         else{
+//             document.write('Fail in pre')
+//         }
+
+
+
+// n=confirm('hello')
+//   document.write(n)
+
+// if(n==true){
+//     document.write(' welcome')
+//   }
+//   else{
+// document.write(' bye')
+//   }
+
+// function CoocMaggi(maggi,pani,tapeli){
+//     document.write("your maggi will be ready in  "+ maggi * 2 +" min </br>"
+//      +"peket  kam aay :- " + maggi
+//      +"  maggi </br> " 
+//      + pani 
+//      +"  cups of water "
+//      + " </br> using  "+tapeli 
+//      +" pan" )
+// }
+// CoocMaggi(2,4,1);
+
+
+ // 1 to n number 
+    
+        // n=eval(prompt("enter your last number"))
+        // i=0
+        // while(i<=n)
+        // {
+            
+        //     document.write(i + "<br>")
+        //     i++
+        // } 
+
+
+//         n=prompt("enter your number")
+//         i=1;
+//     while(i<=10)
+//     {
+//     document.write(  n*i +"<br>")
+// } 
+
+
+//  k=prompt('enter value',0)
+//   document.write(k*k)
+
+// a=12
+// b=5
+// c=a+b
+
+
+// document.write(a + '+' + b + '=' + c)
+
+// document.write(a)
+// document.write('+')
+// document.write(b)
+// document.write('=')
+// document.write(c)
+
+
+
+// a=true
+// true
+
+// document.write( typeof a)
+
+
+
+// swap with 3rd variable.....
+
+// a=12
+// b=14
+// c=a
+// a=b
+// b=c
+// document.write(a ,'</br>')
+// document.write(b)
+
+// a=2
+// b=4   
+// a=a+b   	
+// b=a-b			
+// a=a-b	
+// document.write(a ,'</br>')
+//  document.write(b)
+
+// n=eval(prompt('enter number'))
+// m=eval(prompt('enter number'))
+// p=prompt('enter operator')
+// switch(p){
+//   case '+':
+//    k=n+m
+//     break
+//   case '-':
+//   k=n-m
+//     break
+//   case '*':
+//   k=n*m
+//     break
+//    default:
+//       k=0
+//       break;
+// }
+// document.write(k)
+
+//     r=0
+//     i=1
+//     while(i<=10){
+//         r=r+i
+//         i++ 
+//     }
+// document.write(r)
+
+    // n=4
+    // i=2
+    // while(i<n){
+    //     if(n%i==0){
+    //         document.write('not prime')
+    //         break
+    //     }
+    //     if(i==n-1){
+    //         document.write('prime')
+    //     }
+
+
+    // i++
+    // }
+ 
+
+    // all odd num print
+//     n=3
+// while(n<=200){
+//     i=2
+//     while(i<n){
+//         if(n%i==0){
+//             //document.write('not prime')
+//             break
+//         }
+//         if(i==n-1){
+//             document.write(n +",")
+//         }
+//         i++
+//     }
+//     n++
+//     }
+
+// i=1
+// while(i<=5){
+// j=1
+// while(j<=5){
+// document.write("*")
+// j++
+// }
+// document.write("<br/>")
+// i++
+// }
+
+
+
+
+// j=1
+// while(j<=5){
+// i=1
+// while(i<=j){
+// document.write("*")
+// i++
+// }
+// document.write("<br/>")
+// j++
+// }
+
+
+//  for(j=1;j<=5;j++){
+
+//     for(i=1;i<=j;i++){
+        
+//     document.write("*")
+// }
+// document.write("<br/>")
+//  }
+
+
+// array
+// a=[3,4,5,6,67,]
+// i=0
+// while(i<=4){
+// document.write(a[i]+' ')
+// i++
+// }
+
+// a[1,2,3,4,5,6,7,8,9,10]
+// i=0
+// while(i%2==0){
+//     document.write(a[i]+' ')
+//     i++
+// }
+
+
+// a=[3,4,5,6,67,]
+// i=0
+// while(i<a.length){
+//     document.write(a[i]+'    ')
+//     i++
+// }
+
+
+// a=[3,4,5,6,67,]
+// for(i in a){
+// document.write(a[i]+' ')
+// }
+
+//  a=[3,4,5,6,67,]
+//  for(i of a){
+//  document.write(i+' ')
+//  }
+
+
+
+// n=1
+// for(r=1;r<=5;r++){
+//     for(i=1;i<=5;i++){
+//         document.write(n+++' ')
+//     }
+//     document.write('<br/>')
+// }
+
+
+// for(row=1; row<=3;row++){
+
+//     for(col=1;col<=row;col++){
+//         document.write('*')
+//     }
+//     document.write('<br/>')
+// }
+
+//  for(row=1; row<=3;row++){
+//      for(col=1;col<=row;col++){
+//          document.write('*')
+//              }
+//              for(space=2;space>=row;space--){
+//                 document.write('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;')
+//              }
+//              for(col=1;col<=row;col++){
+//                 document.write('*')
+//              }
+//              document.write('<br/>')
+//             }
+
+
+// a=[4,5,5,6,9,5]
+// for(i=0;i<a.length;i++){
+//     f=1
+//     for(j=a[i];j>=1;j--){
+//         f*=j
+//     }
+//     document.write(f+' ')
+// }
+
+
+
+
+// n=eval(prompt('how many element','5'))
+// a=new Array(n)
+// for(i=0;i<n;i++){
+//     a[i]=eval(prompt('enter number'))
+// }
+// for(i of a)
+// document.write(i)
+
+
+// a=[5,8,5,7,8,9]
+// a.push(2)
+// document.write(a)
+
+
+// a=[5,8,5,7,8,9]
+//document.write(a.pop()'<br/>')
+// document.write(a)
+
+
+// a=[5,8,5,7,8,9]
+// document.write(a.shift()+'<br/>')
+// document.write(a)
+
+// a=[5,8,5,7,8,9]
+// a.unshift(2)
+// document.write(a)/
+
+//  a=[9,6,8,4,3]
+//  a[20]=8 
+//  document.write(a)
+
+// a=[5,9,5,7,3,4]
+// k=a.length
+// document.write(a[k-2])
+
+// a=[5,8,5,7,8,9]
+// delete a[2] 
+// document.write(a)   
+
+// fruits=["banana","orange","apple","mango"];
+// fruits.splice(2,0,"lemon","kiwi");
+// document.write(fruits)
+
+// fruits  = ["banana","orenge","apple","mango",'tomato'];
+// citurs = fruits.slice(1,4);
+// document.write(citrus +'<br/>')
+// document.write(fruits)
+
+// const fruits =["banana","orange","apple","mango"];
+// fruits.sort();
+// document.write(fruits)
+
+// a=[2,4,5,6,7]
+// k=a.map(f)
+// function f(n){
+//     return n*n
+// }
+// document.write(k)
+
+// a=[2,4,5,6,7]
+// k=a.map (function (n){
+//     return n*n
+// })
+// document.write(k)
+   
+
+
+// let favshow="game of throne"
+// document.write(favshow)
+
+// let favshow="game of throns"
+// document.write(favshow.slice(5,7))
+
+// let favshow="game of throns"
+// document.write(favshow[0])
+
+// let favshow="game of throns"
+// document.write(favshow.length)
+
+// let favshow="game of throns"
+// document.write(favshow.indexOf("of"))
+
+// let favshow="game of throns"
+// document.write(favshow[favshow.length-1])
+
+// var ssr="sanjay singh rajput"
+// document.write(ssr.toUpperCase());
+
+// var ssr="sanjay singh rajput"
+// document.write(ssr.toLowerCase());
+
+
+
+//  let sanjay={
+//     name:"sanjay <br>" ,
+//     hend:"do hat <br>" ,
+//     leg:"do per <br>",
+//     eye:"do aankh <br>",
+//     nose:"aak nak <br>",
+//    
+//  }
+//  document.write(sanjay.name)
+//  document.write(sanjay["hend"])
+//  document.write(sanjay["nose"])
+//  document.write(sanjay["eye"])
+//  document.write(sanjay["leg"]);
+
+
+
+
+// object macking
+// let path=12;
+// kitabe=4;
+// panee="anginat"
+// const course={
+//         path:12,
+//         kitabe:4,
+//         panne:"anginat",
+//         notes:{
+//             intoro: "wel come to the bhedchal"
+//         }
+//         ,
+//         enroll(){
+// document.write('tum fas gye')
+//         }
+// }
+// course.enroll()
+// console.log(course)
+
+
+
+
+
+
+
+//  fectory function
+
+// function createConstent(){
+//     return {
+//         path:12,
+//         kitabe:4,
+//         panne:"anginat",
+//         notes:{
+//             intoro: "wel come to the bhedchal"
+//         }
+//         ,
+//         enroll(){
+// document.write('tum fas gye')
+//         }
+//     }   
+// }
+
+
+// const course = createConstent();
+// console.enroll()
+
+
+
+
+
+// function createConstent(panne){
+//     return {
+       
+//         panne : panne ,
+//         enroll(){
+// console.log('tum fas gye')
+//         }
+//     }   
+// }
+
+
+// const course = createConstent("java");
+// course.enroll()
+// console.log(course)
+
+
+// add= (a,b)=>a+b
+
+// sub= (a,b)=>a-b
+
+// div= (a,b)=>a/b
+
+// mul= (a,b)=>a*b
+
+// while(true){
+// op=prompt('enter eny opertor (+,-,*,/)')
+// if (op=='+'||op=='*'||op=='-'||op=='/'){
+// x=parseInt(prompt("enter the value of x"))
+// y=parseInt(prompt("enter the value of y"))
+// switch(op){
+//     case '+':
+// x=add(x,y)
+// break
+// case '*':
+// x=mul(x,y)
+// break
+// case '-':
+// x=sub(x,y)
+// break
+// default :
+// x=div(x,y)
+
+// }
+// alert(x)
+// }
+// else {
+//     alert('invalid operation')
+// }
+// }
+
+
+
+// function createConstent(panne){
+//     return {
+       
+//         panne : panne ,
+//         enroll(){
+// console.log('tum fas gye')
+
+//   //         }
+//     }   
+// }
+
+
+// const course = createConstent("java");
+// course.enroll()
+// console.log(course)
+
+
+
+// function Course(title){
+//     this.title= title,
+//     this.enroll=function(){
+//         console.log("you are successfully log in this page")
+//     }
+// }
+// const course= new Course ('javascript');
+// course.enroll()
+
+// function Product(name,price,discount,itemcode){
+//     this.name=name;
+//     this.price=price;
+//     this.discount=discount;
+//     this.itemcode=itemcode;
+//     this.discountValue=function(){
+// return price*discount/100;
+//     }
+// }
+// const mobile = new Product('oneplus noed',34000,5,'op20')
+
+//  const Product1 = class Product{
+//     constructor(productname,price,discount,itemcode){
+//     this.productname=productname;
+//     this.price=price;
+//     this.discount=discount;
+//     this.itemcode=itemcode;3
+//     }
+
+
+// get  getDiscountValue(){
+//   return this.discount;
+//     }
+//     set  setDiscountValue(value){
+//    this.discount=value;
+//     }
+// }
+// const phonedis =new Product1('protation',2500,4,'palying20')
+
+
+// class Product{
+//     constructor(itemname){
+//         this.itemnmae=itemname;
+
+//     }
+//     getItemname(){
+//         return this.itemname +  "this a product"
+//     }
+// }
+// const phonedis =new Product('protation',2500,4,'palying20')
+
+
+// class furnuiter  extends Product{
+//     constructor(itemname)
+// {
+// super(itemname);
+// } 
+// getItemname(){
+//         return this.itemname +  "this is a furnuter"
+//     }
+// }
+//  let pancil = new   Product('sakalaka boom boom',45,2,'sanju')
+  
+
+
+// all about for array
+
+// const array=[1,2,3,4,5,6,7,8]
+// document.write(array)
+
+
+// const array=[1,2,3,4,5,6,7,8]
+// document.write(array[5])
+
+
+// const array=[1,2,3,4,5,6,7,8,9]
+// document.write(array[array.length-1])
+
+// push 
+// const num=[1,2,3,4,5,6,7,8,9]
+// num.push(10)
+// console.log(num.push(10))
+
+
+// unshift
+// const num=[1,2,3,4,5,6,7,8,9]
+// num.push(10)
+
+// console.log(num.unshift(0))
+
+
+// shift
+// const num=[1,2,3,4,5,6,7,8,9]
+// console.log(num.shift())
+
+
+// pop
+// const num=[1,2,3,4,5,6,7,8,9]
+// num.push(10)
+// num.unshift(0)
+// console.log(num.pop())
+
+// const array=[1,2,3,4,5,6,7,8]
+
+// array[8 ]={array:6}
+// console.log(array)
+
+//  const sun=['sanjay','ishawar','pawan','yovraj','vidit','etc','etc','pawan','yovraj','vidit']
+//  sun.indexOf('pawan')
+//  console.log(sun.indexOf('pawan',3))
+//  console.log(sun.indexOf('pawan'))
+
+
+
+
+
+// const sanjay=[
+// {
+//     name:'sanju',
+//     subs:100000,
+
+// },
+// {
+//     name:'ganju', 
+//     subs:2000000,
+
+// },
+// {
+//     name:'panju',
+//     subs:5000000,
+
+// }
+
+// ]
+// console.log(sanjay.find (function(element){
+//     return element.subs ===5000000
+// }))
+
+
+
+
+
+// const sanjay=[
+// {
+//     name:'sanju',
+//     subs:100000,
+
+// },
+// {
+//     name:'ganju', 
+//     subs:2000000,
+
+// },
+// {
+//     name:'panju',
+//     subs:5000000,
+
+// }
+
+// ]
+// console.log(sanjay.find (function(element){
+//     return element.name ==='ganju'
+// }))
+
+
+
+// concat Array 
+// let name1=['sanjay','suraj','vishal']
+// let name2=['naveen','niraj','samir']
+// console.log(name1.concat(name2))
+
+//  let name1=['sanjay','suraj','vishal']
+// let name2=['naveen','niraj','samir']
+
+// let name3=name1.concat(name2)
+// console.log(name3)
+
+
+
+// let name1=['sanjay','suraj','vishal']
+// let name2=['naveen','niraj','samir']
+
+// let name3=name1.concat(name2)
+// console.log(name3.slice(3,5))
+
+// let name1=['sanjay','suraj','vishal']
+// let name2=['naveen','niraj','samir']
+
+// let name3 = [...name1,...name2]
+// console.log(name3)
+
+
+
+
+// for each loop in array
+
+// let name=['sanjay','suraj','vishal','naveen','niraj','samir']
+// for(let i=0; i<name.length;i++){
+//     console.log(name[i])
+// }
+
+
+
+// for of loop
+// let name=['sanjay','suraj','vishal','naveen','niraj','samir']
+// for(let names of name){
+//     console.log(names)
+// }
+
+// fore each loop
+
+// let name=['sanjay','suraj','vishal','naveen','niraj','samir']
+// name.forEach(function(name,i){
+//     console.log(name,i);
+// });
+
+
+
+
+// join 
+// let sanj=['s','h','i','v','a']
+// console.log(sanj.join(''))   
+
+
+
+// splice
+// let sanj=['s','h','i','v','a']
+// console.log(sanj.splice(''))   
+
+
+// let cities=[
+// {name:'sanjay',population:345869060},
+// {name:'ghaauys',population:34556789760},
+// {name:'gandhi',population:3458646666},
+// {name:'lafde ',population:34467880},
+// {name:'tuche',population:342312456}
+// ];
+// console.log(cities.filter(citie=>citie.population>300000000))
+
+
+// let janki=[34,56,78]
+// let manki=[89,3383,76254]
+
+// panki=(janki.concat(manki))
+// document.write()
+// const characters=[{
+//     name:'sanjay',
+//     age:'22',
+//     height:'180',
+//     wait:'65',
+//     gender:'male',
+//     mass: '69',
+//     eye_color: 'black'
+// },
+
+// {
+//     name:'ishwar',
+//     age:'21',
+//     height:'180',
+//     wait:'65',
+//     gender:'male',
+//     mass: '59',
+//     eye_color: 'black'
+// },
+// {
+//     name:'pawan',
+//     age:'22',
+//     height:'180',
+//     wait:'70',
+//     gender:'male',
+//     mass: '19'
+//     ,
+//     eye_color: 'black'
+// },
+
+// {
+//     name:'yuvraj',
+//     age:'20',
+//     height:'182',
+//     wait:'45',
+//     gender:'male',
+//     mass: '169',
+//     eye_color: 'black'
+// },]
+
+
+//  const names=characters.map(ch=>ch.name)
+//  console.log(names)
+
+
+//  const propertiesofch=characters.map(ch=>{
+//   return{  name:ch.name,
+//         height : ch.height,
+//         wait :ch.wait,
+//         age :ch.age,
+//         gender: ch.gender
+//  }
+// }
+//  )
+//  console.log(propertiesofch)
+
+// const totalheight=characters.reduce((prvheight,characters)=>{
+//     return prvheight + Number(characters.height);
+
+// },0);
+// console.log(totalheight);
+
+// const femalech=characters.filter((characters)=>{
+//     return characters.gender=='female'
+// })
+// console.log(femalech)
+
+// const malech=characters.filter((characters)=>{
+//     return characters.gender=='male'
+// })
+// console.log(malech)
+
+
+// const shortByname =characters.sort( (characters1,characters2 )=>{
+//     if(characters1.name>characters2.name){
+//         return -1;
+//     }
+//     if (characters1.name < characters2.name){
+//         return 1;
+//     }
+//     return 0
+// })
+
+// console.log(shortByname)
+// const shortBygender =characters.sort( (characters1,characters2 )=>{
+//     if(characters1.gender>characters2.gender){
+//         return -1;
+//     }
+//     if (characters1.gender < characters2.gender){
+//         return 1;
+//     }
+//     return 0
+// })
+
+// console.log(shortBygender)
+
+
+// console.log(characters.every((characters)=>characters.mass >30))
+// console.log(characters.some((characters)=>characters.gender))
+// console.log(characters.every((characters)=>characters.mass >30))
+ 
+// console.log(characters.some((characters)=> characters.height > 200))
+
+
+
+  
+// var x="sanjay"
+// function bapu(){
+//     console.log(x)
+// }
+// bapu()
+
+
+  
+// var x="sanjay"
+// function bapu(){
+
+//     var w= "sanjy"
+//     console.log(x)
+// }
+
+// bapu()
+// console.log(w)
+
+
+
+// var x="sanjay"
+// function bapu(){
+   
+// }
+// bapu()
+// console.log(x)
+
+
+// var x='bro';
+
+// function bapu(){
+//     var x="sanjay";
+//     console.log(x)
+//    function child(){
+//     var x='bhai';
+//     console.log(x)
+//    }
+   
+//    child()
+//     }
+// bapu()
+
+// function dada(){
+//     console.log(x)
+// }
+// dada()
+
+     
+
+// never use this var
+
+// var x='bar';
+// {
+//     var x='var'
+//     console.log(x)
+// }
+// console.log( x)
+
+
+// let x='bar';
+// {
+//     let x='var'
+//     console.log(x)
+// }
+// console.log( x)
+  
+
+
+// if(true){
+// let san ="robo"
+// }
+// console.log(san)
+
+// if(true){
+// var san ="robo"
+// }
+// console.log(san)
+
+
+
+                                            //    DOM......DOCUMENT OBJECT MODEL  
+
+
+// document.getElementById('a').innerHTML='welcome'
+
+// x= document.getElementById('a').innerHTML
+// document.getElementById('b').innerHTML=x
+
+
+
+    // x = document.getElementsByTagName('h1')
+   //             x[1].innerHTML = 'Welcome'
+
+
+   
+   // x = document.getElementById('a').innerHTML = 'Welcome'
+  // document.querySelector('[name="inp"]').value = x
+
+
+
+    // x = document.getElementById('a').innerHTML=new Date().toTimeString()
+            
+    //         document.querySelector('[name="inp"]').value = x
+
+
+
+
+//       f=()=>{
+//                 x = document.getElementById('a').innerHTML=new Date().toTimeString()
+//                 setTimeout('f()',1000)} 
+
+
+
+
+ //   s=()=>{
+    //             x = document.getElementById('a').innerHTML=new Date().toDateString()
+    //         }
+            
+
+
+
+    // f=()=>{
+    //             x = document.getElementById('a').innerHTML=new Date().toTimeString()
+    //         }
+    //         s=()=>{
+    //             x = document.getElementById('a').innerHTML=new Date().toDateString()
+    //         }
+
+
+//   f=()=>{
+//                 x = document.getElementById('inp1').value
+//                 y = document.getElementById('inp2').value
+
+//                 document.getElementById('p1').innerHTML = eval(x) + eval(y)
+//             }
+
+
+
+// f=()=>{
+//                 document.body.style.backgroundColor='aqua'
+//             }
+//             s=()=>{
+//                 document.body.style.backgroundColor='white'
+//             }
+
+// a = ['red','green','blue','cyan','magenta','purple']
+//             i=0
+//             f=()=>{
+//                 // document.getElementByI
+//                 document.body.style.backgroundColor=a[i]
+//                 i++
+//                 if(i==6){
+//                     i=0
+//                 }
+//             }
+
+
+
+// a = ['red','green','blue','cyan','magenta','purple']
+//             i=0
+//             f=()=>{
+//                 // document.getElementByI
+//                 document.body.style.backgroundColor=a[i]
+//                 i++
+//                 if(i==6){
+//                     i=0
+//                 }
+//                 setTimeout('f()',10)
+//             }
+
+
+
+
+
+// a = ['red','green','blue','cyan','magenta','purple']
+//             i=0
+//             f=()=>{
+//                 document.getElementById('d1').style.backgroundColor=a[i+1]
+//                 document.body.style.backgroundColor=a[i]
+//                 i++
+//                 if(i==5){
+//                     i=0
+//                 }
+//                 setTimeout('f()',1000)
+//             }
+
+
+
+
+
+    // a = ['red','green','blue','cyan','magenta','purple']
+    // a = ['hotel12','R','OIP','lamp','hotel3']
+    //         i=0
+    //         f=()=>{
+    //             document.getElementById('d1').style.backgroundImage = 'url("'+a[i]+'.jpg")'
+    //             document.getElementById('d1').style.transition = '2s'
+    //             document.getElementById('d1').style.backgroundSize = 'cover'
+    //             document.body.style.backgroundColor=a[i]
+    //             i++
+    //             if(i==5){
+    //                 i=0
+    //             }
+    //             setTimeout('f()',3000)
+    //         }
+ </script>
+</body>
+</html>
